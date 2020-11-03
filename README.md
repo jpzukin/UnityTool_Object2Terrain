@@ -3,7 +3,7 @@
 
 # 概要
 ほぼ次のサイトの写経
-- [オブジェクトをTerrain（地形）に転写](https://eiki.hatenablog.jp/entry/20140705/1404651350)
+- [オブジェクトをTerrain（地形）に転写](https://eiki.hatenablog.jp/entry/20140706/1404651350)
 
 APIが古い書き方と怒られた部分の変更と、Unity習得のためにコードを解析してメモしている。
 
