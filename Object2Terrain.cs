@@ -62,12 +62,12 @@ public class Object2Terrain : EditorWindow
         // 衝突結果を受け取る領域
         RaycastHit hit = new RaycastHit();
 
+        // 選択中のオブジェクトより高い位置から、Terrainの領域全体に光を降らせて、
+        // 選択中のオブジェクトのコライダーに衝突した場所の高さを記録する。
         for (int i = 0; i < cHMWidth; i++)
         {
             for (int j = 0; j < cHMHeight; j++)
             {
-                // 選択中のオブジェクトより高い位置から、Terrainの領域全体に光を降らせて、
-                // 選択中のオブジェクトのコライダーに衝突した場所の高さを記録する。
                 bool result = target_col.Raycast(ray, out hit, cRayDistance);
                 if (result)
                 {
